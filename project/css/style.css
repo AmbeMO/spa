@@ -93,11 +93,19 @@ body * {
 }
 
 @media (max-width: 767px) {
-  .landing__img {
+  .landing-reg__img {
     display: none;
   }
+
+  .landing-log__img {
+    display: none;
+  }
+
+  .head-nav__row {
+    max-height: 50px;
+  }
 }
-.landing__form p {
+.landing-reg__form p {
   color: #6B6C6F;
 }
 
@@ -138,20 +146,29 @@ body {
   /*shob za ekran nicho ne vilizlo*/
 }
 
+.container {
+  max-width: 1170px;
+  margin: 0px auto;
+  padding: 0px 10px;
+}
+
 .head-nav {
   background-color: #FFFFFF;
   box-shadow: 0px 10px 24px rgba(0, 0, 0, 0.1);
   position: fixed;
   top: 0;
+  left: 0;
   width: 100%;
 }
 
 .head-nav__row {
   display: flex;
-  width: 80%;
-  margin: 0px auto;
-  justify-content: space-around;
+  justify-content: space-between;
+  position: relative;
+  z-index: 2;
+  height: 90px;
   align-items: center;
+  position: relative;
 }
 
 .head-nav__logo {
@@ -160,8 +177,6 @@ body {
 
 .head-nav__body {
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   padding: 0px 0px 0px 35px;
@@ -176,6 +191,7 @@ body {
 
 .head-nav__button {
   font-size: 14px;
+  max-height: 42px;
   display: inline-block;
   line-height: 40px;
   color: #ffff;
@@ -198,18 +214,18 @@ body {
   max-width: 100%;
 }
 
-.landing {
+.landing-reg {
   max-width: 1920px;
   height: 100%;
 }
 
-.landing__row {
+.landing-reg__row {
   display: flex;
   height: 100vh;
   flex-direction: row;
 }
 
-.landing__body {
+.landing-reg__body {
   max-width: 960px;
   margin: 0px auto;
   display: flex;
@@ -218,7 +234,7 @@ body {
   padding-top: 188px;
 }
 
-.landing__text {
+.landing-reg__text {
   font-size: 20px;
   line-height: 23px;
   letter-spacing: -1px;
@@ -228,7 +244,7 @@ body {
   padding-bottom: 16px;
 }
 
-.landing__title {
+.landing-reg__title {
   font-weight: bold;
   font-size: 46px;
   line-height: 54px;
@@ -237,12 +253,12 @@ body {
   padding-bottom: 33px;
 }
 
-.landing__form {
+.landing-reg__form {
   display: flex;
   flex-direction: column;
   max-width: 617px;
 }
-.landing__form p {
+.landing-reg__form p {
   font-size: 22px;
   line-height: 26px;
   letter-spacing: -1px;
@@ -265,7 +281,7 @@ input[type=password] {
   margin: 5px 0px;
 }
 
-.landing__button {
+.landing-reg__button {
   padding-top: 55px;
   max-width: 609px;
   display: flex;
@@ -296,11 +312,21 @@ input[type=password] {
   border: 2px solid #F86B6A;
 }
 
-.landing__img {
+.landing-reg__img {
   height: auto;
   width: 50%;
   max-width: 960px;
   background: url(../img/imgSignPage.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  flex: 1 1 auto;
+}
+
+.landing-log__img {
+  height: auto;
+  width: 50%;
+  max-width: 960px;
+  background: url(../img/loginBg.png);
   background-repeat: no-repeat;
   background-size: cover;
   flex: 1 1 auto;

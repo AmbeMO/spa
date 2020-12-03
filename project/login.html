@@ -3,17 +3,20 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Document</title>
+	<title>Space photo analyzer</title>
 	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 	<div class="wrapper">
 		<div class="content">
-			<div class="head-nav">
+			<div class="head-nav"> 
 				<div class="container">
 					<div class="head-nav__row">
 						<div class="head-nav__logo">
 							<img src="img/logo.png" alt="logo">
+						</div>
+						<div class="head-nav__burger">
+							<span></span>
 						</div>
 						<div class="head-nav__body">
 							<a href="#">
@@ -32,36 +35,32 @@
 								<img src="img/avatar.png" alt="cabinet">
 							</a>
 						</div>
-					</div>
+					</div>	
 				</div>
-			</div>
-			<div class="landing">
-				<div class="landing__row">
-						<div class="landing__body">
-							<div class="landing__text">
+			<div class="landing-log landing-reg">
+				<div class="landing-log__row landing-reg__row">
+						<div class="landing-log__body landing-reg__body">
+							<div class="landing-log__text landing-reg__text">
 								<p>Start your personal Photo experience</p>
 							</div>
-							<div class="landing__title">
-								<p>Sign your account</p>
+							<div class="landing-log__title landing-reg__title">
+								<p>Login your account</p>
 							</div>
-								<form action="#" method="POST" class="landing__form">
-									<p>Full name</p>
-									<input tabindex="1" type="text" name="userName" placeholder="Your Full name" required>
+								<form action="#" method="POST" class="landing-log__form landing-reg__form">
 									<p>E-Mail</p>
-									<input tabindex="2" type="email" name="userEmail" placeholder="Your E-Mail" required>
+									<input tabindex="1" type="email" name="userEmail" placeholder="Your E-Mail" required>
 									<p>Password</p>
-									<input tabindex="3" type="password" name="userPass" placeholder="Your Password" required>
-									<input tabindex="4" type="password" name="userPass" placeholder="Repeat Your Password" required>
-									<div class="landing__button">
-										<button type="submit" class="register__button">Register</button>
-										<a href="#" class="login__button">Login</a>
+									<input tabindex="2" type="password" name="userPass" placeholder="Your Password" required>
+									<div class="landing-log__button landing-reg__button">
+										<button type="submit" class="register__button">Login</button>
+										<a href="register.html" class="login__button">Register</a>
 									</div>
 								</form>
 						</div>
-						<div class="landing__img">
-							<!-- <img src="img/imgSignPage.png" alt=""> -->
+						<div class="landing-log__img">
 						</div>
 				</div>
+			</div>
 			</div>
 		</div>
 	</div>
