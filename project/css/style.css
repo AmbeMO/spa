@@ -447,3 +447,39 @@ input[type=password] {
 .text__btn.text__first {
   background: linear-gradient(270deg, #01C089 0%, #00A958 100%);
 }
+
+.lorem {
+  background: url(../img/mtrbg.png);
+}
+
+.lorem__row {
+  padding-top: 145px;
+  padding-bottom: 116px;
+  display: flex;
+  align-items: center;
+}
+
+.lorem__text {
+  width: 65%;
+  font-size: 26px;
+  letter-spacing: -0.015em;
+  color: rgba(21, 31, 47, 0.8);
+  line-height: 30px;
+}
+
+.lorem__btn {
+  margin: 0px 20px;
+  line-height: 40px;
+  max-width: 192px;
+  max-height: 52px;
+  border-radius: 6px;
+  box-shadow: 0px 10px 24px rgba(0, 0, 0, 0.19);
+}
+.lorem__btn.lorem__first {
+  background-color: #01C089;
+  color: #FFFFFF;
+}
+.lorem__btn.lorem__second {
+  border: 1px solid #F86B6A;
+  color: #F86B6A;
+}
