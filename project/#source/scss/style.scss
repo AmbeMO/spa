@@ -333,3 +333,59 @@ input[type=password] {
 	width: 50%;
 
 	}
+
+
+	//////////////text
+	.text {}
+
+.text__row {
+	display: flex;
+	width: 100%;
+	align-items:center;
+
+}
+.text__img {
+	img{
+		max-width: 570px;
+	}
+}
+.text__body {
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+	margin: 0 auto;
+	padding: 0px 40px;
+}
+.text__title {
+	text-align: center;
+	font-weight: bold;
+	font-size: 30px;
+	line-height: 35px;
+	color: #151F2F;
+
+	padding-bottom: 16px;
+
+}
+.text__text {
+	font-size: 14px;
+	line-height: 26px;
+	color: #5C5F64;
+	padding-bottom: 22px;
+}
+.text__btn{
+	font-size: 14px;
+	line-height: 36px;
+	color: #FFFFFF;
+	box-shadow: 0px 10px 24px rgba(0, 0, 0, 0.19);
+	border-radius: 5px;
+	min-height: 36px;
+	max-width: 162px;
+	text-align: center;
+	&.text__second{
+		background: linear-gradient(90deg, #F86B6A 0%, #FD954E 100%);
+	}
+	&.text__first{
+		background: linear-gradient(270deg, #01C089 0%, #00A958 100%);
+	}
+
+}
