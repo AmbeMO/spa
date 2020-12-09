@@ -331,3 +331,68 @@ input[type=password] {
   background-size: cover;
   flex: 1 1 auto;
 }
+
+.main {
+  padding-top: 90px;
+  background: url(../img/mtrbg.png);
+}
+
+.main__row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: no-wrap;
+}
+
+.main__body {
+  margin: 0px auto;
+  width: 50%;
+}
+
+.main__title {
+  padding-top: 150px;
+  font-weight: bold;
+  font-size: 50px;
+  text-align: center;
+  line-height: 59px;
+  color: #151F2F;
+  text-shadow: 0px 0px 29px #FFFFFF;
+}
+.main__title span {
+  color: #01C089;
+}
+
+.main__text {
+  margin: 0px auto;
+  width: 50%;
+  padding-bottom: 23px;
+  padding-top: 15px;
+}
+.main__text p {
+  margin: 0px auto;
+  font-size: 20px;
+  line-height: 35px;
+  color: #5C5F64;
+  text-shadow: 0px 0px 10px #FFFFFF;
+}
+
+.main__btn {
+  background-color: #F86B6A;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  color: #FFFFFF;
+  display: inline-block;
+  line-height: 30px;
+  min-width: 206px;
+  min-height: 52px;
+  margin-bottom: 226px;
+}
+.main__btn a span {
+  background: url(../img/icons/arrow.png) right no-repeat;
+  padding-right: 35px;
+}
+
+.main__img {
+  background: url(../img/mainbg.png) center/cover no-repeat;
+  width: 50%;
+}
