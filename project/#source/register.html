@@ -26,7 +26,7 @@
 				<img src="img/icons/sms.png" alt="your sms">
 			</a>
 			<a href="#">
-				<img src="img/icons/bell.png" alt="your notification">
+				<img src="img/icons/notification.png" alt="your notification">
 			</a>
 			<div class="head-nav__button">
 				<a href="#"><span>Search map</span></a>
@@ -37,32 +37,35 @@
 			</div>
 		</div>	
 	</div>
-</div>			<div class="landing-log landing-reg">
-				<div class="landing-log__row landing-reg__row">
-						<div class="landing-log__img">
-						</div>
-						<div class="landing-log__body landing-reg__body">
-							<div class="landing-log__text landing-reg__text">
+</div>			<div class="landing-reg">
+				<div class="landing-reg__row">
+						<div class="landing-reg__body">
+							<div class="landing-reg__text">
 								<p>Start your personal Photo experience</p>
 							</div>
-							<div class="landing-log__title landing-reg__title">
-								<p>Login your account</p>
+							<div class="landing-reg__title">
+								<p>Sign your account</p>
 							</div>
-								<form action="#" method="POST" class="landing-log__form landing-reg__form">
+								<form action="#" method="POST" class="landing-reg__form">
+									<p>Full name</p>
+									<input tabindex="1" type="text" name="userName" placeholder="Your Full name" required>
 									<p>E-Mail</p>
-									<input tabindex="1" type="email" name="userEmail" placeholder="Your E-Mail" required>
+									<input tabindex="2" type="email" name="userEmail" placeholder="Your E-Mail" required>
 									<p>Password</p>
-									<input tabindex="2" type="password" name="userPass" placeholder="Your Password" required>
-									<div class="landing-log__button landing-reg__button">
-										<button type="submit" class="register__button">Login</button>
-										<a href="register.html" class="login__button">Register</a>
+									<input tabindex="3" type="password" name="userPass" placeholder="Your Password" required>
+									<input tabindex="4" type="password" name="confirmPass" placeholder="Repeat Your Password" required>
+									<div class="landing-reg__button">
+										<button type="submit" class="register__button">Register</button>
+										<a href="login.html" class="login__button">Login</a>
 									</div>
 								</form>
 						</div>
-					</div>
+						<div class="landing-reg__img">
+						</div>
 				</div>
 			</div>
 		</div>
+	</div>
 	
 </body>
 </html>
